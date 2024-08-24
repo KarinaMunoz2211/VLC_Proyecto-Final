@@ -1,0 +1,15 @@
+@import "../base/reset";
+@import "../utilities/variables";
+
+header{
+    background-color: $color-secundario;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+
+    .vlc-logo{
+        img{
+            width: 80px;
+        }
+    }
+}

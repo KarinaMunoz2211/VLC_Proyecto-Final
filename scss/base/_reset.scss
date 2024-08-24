@@ -1,3 +1,4 @@
+@import "../utilities/variables";
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -5,7 +6,7 @@
 }
 
 body{
-    background-color: #2d2d2d;
+    background-color: $color-principal;
 
     main{
         background-color: #cfcfc7;

@@ -13,4 +13,45 @@ body main {
   text-align: justify;
 }
 
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+
+header {
+  background-color: #e5fd4f;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+header .vlc-logo img {
+  width: 80px;
+}
+
+footer {
+  background-color: #e5fd4f;
+}
+footer .footer-content {
+  padding: 0;
+  margin: 5px;
+}
+footer .footer-content .link {
+  padding-bottom: 20px;
+}
+footer .footer-content .link li {
+  display: inline;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */

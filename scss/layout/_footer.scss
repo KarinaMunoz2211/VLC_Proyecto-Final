@@ -1,0 +1,19 @@
+@import "../utilities/variables";
+
+footer{
+    background-color: $color-secundario;
+    
+    .footer-content{
+        padding: 0;
+        margin: 5px;
+        .link{
+            padding-bottom: 20px;
+
+            li{
+                display: inline;
+                justify-content: space-between;
+                text-decoration: none;
+            }
+        }
+        }
+    }
