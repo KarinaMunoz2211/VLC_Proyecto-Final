@@ -1,0 +1,12 @@
+{
+  "name": "vlc_proyecto-final",
+  "version": "1.0.0",
+  "description": "Este es mi Proyecto Final para el curso de Desarrollo Web de CoderHouse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
