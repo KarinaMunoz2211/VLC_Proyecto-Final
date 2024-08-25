@@ -37,21 +37,15 @@ header {
 header .vlc-logo img {
   width: 80px;
 }
-header .navbar .navbar-expand-lg {
+header .navbar {
   background-color: #e5fd4f !important;
-  padding: 0 !important;
-  margin: 0 !important;
 }
-header .navbar .navbar-expand-lg .container-fluid {
-  background-color: #e5fd4f;
-  padding: 0 !important;
-  margin: 0 !important;
+header .navbar .nav-link {
+  font: bold;
 }
-header .navbar .navbar-expand-lg .container-fluid .navbar-toggler- {
-  background-color: #e5fd4f;
-}
-header .navbar .navbar-expand-lg .container-fluid .navbar-collapse {
-  background-color: #e5fd4f;
+header .navbar .nav-linkhover {
+  color: #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
 }
 
 footer {
