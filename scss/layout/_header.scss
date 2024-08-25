@@ -12,4 +12,23 @@ header{
             width: 80px;
         }
     }
+
+    .navbar .navbar-expand-lg {
+            background-color: $color-secundario !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            
+        .container-fluid{
+            background-color: $color-secundario;
+            padding: 0 !important;
+            margin: 0 !important;
+
+            .navbar-toggler-{
+                background-color: $color-secundario;
+        }
+            .navbar-collapse{
+                background-color: $color-secundario;
+            }
+    }
+}
 }
