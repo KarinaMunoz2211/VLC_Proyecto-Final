@@ -33,7 +33,7 @@ header {
 }
 header .container-fluid {
   background-color: #e5fd4f;
-  display: block;
+  display: inline;
   justify-content: space-around;
 }
 header .container-fluid .navbar-brand img {
