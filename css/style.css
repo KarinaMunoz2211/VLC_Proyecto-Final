@@ -52,12 +52,18 @@ header .container-fluid .navbar-collapse .navbar-nav .nav-link .nav-link {
 
 footer {
   background-color: #e5fd4f;
-  font-size: 15px;
-  display: block;
 }
-footer p {
-  margin: 10px;
-  padding: 5px;
+footer .footer-content {
+  padding: 0;
+  margin: 5px;
+}
+footer .footer-content .link {
+  padding-bottom: 20px;
+}
+footer .footer-content .link li {
+  display: inline;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
