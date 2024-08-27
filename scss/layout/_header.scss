@@ -2,25 +2,31 @@
 @import "../utilities/variables";
 
 header{
-    background-color: $color-secundario;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
+    height: 100px;
 
-    .vlc-logo{
+    .container-fluid{
+        background-color: $color-secundario;
+        display: block;
+        justify-content: space-around;
+    
+        .navbar-brand{
         img{
             width: 80px;
+         }
         }
-    }
-    .navbar{
-        background-color: $color-secundario !important; 
 
-        .nav-link{
-            font: bold;
-            
-            &hover{
-                color: $color-principal;
-                border-bottom: 1px solid $color-principal;
+        .navbar-collapse{
+            align-items: center;
+            justify-content: right;
+
+            .navbar-nav{
+                justify-items: right;
+
+                .nav-link{
+                    .nav-link{
+                    margin: 5px;
+                    }
+                }
             }
         }
     }
