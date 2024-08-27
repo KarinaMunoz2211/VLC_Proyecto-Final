@@ -29,29 +29,35 @@ body main {
 }
 
 header {
-  background-color: #e5fd4f;
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
+  height: 100px;
 }
-header .vlc-logo img {
+header .container-fluid {
+  background-color: #e5fd4f;
+  display: block;
+  justify-content: space-around;
+}
+header .container-fluid .navbar-brand img {
   width: 80px;
+}
+header .container-fluid .navbar-collapse {
+  align-items: center;
+  justify-content: right;
+}
+header .container-fluid .navbar-collapse .navbar-nav {
+  justify-items: right;
+}
+header .container-fluid .navbar-collapse .navbar-nav .nav-link .nav-link {
+  margin: 5px;
 }
 
 footer {
   background-color: #e5fd4f;
+  font-size: 15px;
+  display: block;
 }
-footer .footer-content {
-  padding: 0;
-  margin: 5px;
-}
-footer .footer-content .link {
-  padding-bottom: 20px;
-}
-footer .footer-content .link li {
-  display: inline;
-  justify-content: space-between;
-  text-decoration: none;
+footer p {
+  margin: 10px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
