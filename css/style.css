@@ -32,15 +32,23 @@ header {
   background-color: #e5fd4f;
   height: 100px;
 }
-header .navbar {
+header .container-fluid {
   background-color: #e5fd4f;
-  align-items: center;
+  display: flex;
+  justify-content: right;
 }
-header .navbar .container-fluid {
-  justify-content: space-between;
+header .container-fluid .navbar {
+  align-items: end;
 }
-header .navbar-nav {
+header .container-fluid .navbar-collapse .navbar-nav {
   align-items: self-end;
+  justify-content: right;
+}
+header .navbar_style ul li {
+  color: black;
+}
+header .navbar_style ul li a:hover {
+  border-bottom: 1px solid black;
 }
 
 footer {

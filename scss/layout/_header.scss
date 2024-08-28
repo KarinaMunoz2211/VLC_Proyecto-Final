@@ -5,14 +5,28 @@ header{
     background-color: $color-secundario;
     height: 100px;
     
-    .navbar{
+    .container-fluid{
         background-color: $color-secundario;
-        align-items: center;
-        .container-fluid{
-            justify-content: space-between;
-        } 
+        display: flex;
+        justify-content: right;
+        .navbar{
+            align-items:end;
+        }
+    
+        .navbar-collapse{
+            .navbar-nav{
+                align-items: self-end;
+                justify-content: right;
+            }
+        }
     }
-    .navbar-nav{
-        align-items:self-end;
+    
+    .navbar_style ul li{
+        color:black;
+
+        a:hover{
+            border-bottom: 1px solid black;
+        }
     }
+    
 }
