@@ -6,26 +6,38 @@ header{
     height: 100px;
     
     .container-fluid{
+        display: inline;
+
+        .navbar-brand{
+            img{
+                width: 80px;
+            }
+        }
         background-color: $color-secundario;
-        display: flex;
-        justify-content: right;
+        
+        
         .navbar{
+            justify-content: right;
             align-items:end;
         }
     
         .navbar-collapse{
+            justify-content: right;
             .navbar-nav{
                 align-items: self-end;
-                justify-content: right;
             }
         }
     }
     
     .navbar_style ul li{
         color:black;
+        justify-items: right;
+        font-weight:500;
 
         a:hover{
             border-bottom: 1px solid black;
+            font-size: 1.5rem;
+            transition: 0.5s;
         }
     }
     

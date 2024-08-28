@@ -12,6 +12,10 @@ body main {
   margin: 20px 5px;
   text-align: justify;
 }
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -27,28 +31,41 @@ body main {
   margin: 20px 5px;
   text-align: justify;
 }
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
 
 header {
   background-color: #e5fd4f;
   height: 100px;
 }
 header .container-fluid {
+  display: inline;
   background-color: #e5fd4f;
-  display: flex;
-  justify-content: right;
+}
+header .container-fluid .navbar-brand img {
+  width: 80px;
 }
 header .container-fluid .navbar {
+  justify-content: right;
   align-items: end;
+}
+header .container-fluid .navbar-collapse {
+  justify-content: right;
 }
 header .container-fluid .navbar-collapse .navbar-nav {
   align-items: self-end;
-  justify-content: right;
 }
 header .navbar_style ul li {
   color: black;
+  justify-items: right;
+  font-weight: 500;
 }
 header .navbar_style ul li a:hover {
   border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  transition: 0.5s;
 }
 
 footer {
