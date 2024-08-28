@@ -28,6 +28,21 @@ body main {
   text-align: justify;
 }
 
+header {
+  background-color: #e5fd4f;
+  height: 100px;
+}
+header .navbar {
+  background-color: #e5fd4f;
+  align-items: center;
+}
+header .navbar .container-fluid {
+  justify-content: space-between;
+}
+header .navbar-nav {
+  align-items: self-end;
+}
+
 footer {
   background-color: #e5fd4f;
 }

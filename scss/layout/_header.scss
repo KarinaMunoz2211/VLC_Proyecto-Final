@@ -3,13 +3,16 @@
 
 header{
     background-color: $color-secundario;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-
-    .vlc-logo{
-        img{
-            width: 80px;
-        }
+    height: 100px;
+    
+    .navbar{
+        background-color: $color-secundario;
+        align-items: center;
+        .container-fluid{
+            justify-content: space-between;
+        } 
+    }
+    .navbar-nav{
+        align-items:self-end;
     }
 }
