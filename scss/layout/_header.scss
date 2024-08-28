@@ -1,33 +1,3 @@
 @import "../base/reset";
 @import "../utilities/variables";
 
-header{
-    height: 100px;
-
-    .container-fluid{
-        background-color: $color-secundario;
-        display: inline;
-        justify-content: space-around;
-    
-        .navbar-brand{
-        img{
-            width: 80px;
-         }
-        }
-
-        .navbar-collapse{
-            align-items: center;
-            justify-content: right;
-
-            .navbar-nav{
-                justify-items: right;
-
-                .nav-link{
-                    .nav-link{
-                    margin: 5px;
-                    }
-                }
-            }
-        }
-    }
-}
