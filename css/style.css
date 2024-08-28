@@ -28,28 +28,6 @@ body main {
   text-align: justify;
 }
 
-header {
-  height: 100px;
-}
-header .container-fluid {
-  background-color: #e5fd4f;
-  display: inline;
-  justify-content: space-around;
-}
-header .container-fluid .navbar-brand img {
-  width: 80px;
-}
-header .container-fluid .navbar-collapse {
-  align-items: center;
-  justify-content: right;
-}
-header .container-fluid .navbar-collapse .navbar-nav {
-  justify-items: right;
-}
-header .container-fluid .navbar-collapse .navbar-nav .nav-link .nav-link {
-  margin: 5px;
-}
-
 footer {
   background-color: #e5fd4f;
 }
