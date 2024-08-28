@@ -1,0 +1,23 @@
+@import "../base/reset";
+@import "../utilities/variables";
+
+section{
+        max-width: 1200px;
+        margin: 0 auto;
+
+    h1 {
+        margin: 10px;
+        padding: 10px;
+        font-style: oblique;
+        font-weight: 700;
+    }
+    
+    p{
+        padding: 10px;
+    }
+
+    .img-rubro-ppal{
+        margin: 10px;
+    }
+}
+

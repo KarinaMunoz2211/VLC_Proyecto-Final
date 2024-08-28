@@ -84,4 +84,40 @@ footer .footer-content .link li {
   text-decoration: none;
 }
 
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section h1 {
+  margin: 10px;
+  padding: 10px;
+  font-style: oblique;
+  font-weight: 700;
+}
+section p {
+  padding: 10px;
+}
+section .img-rubro-ppal {
+  margin: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
