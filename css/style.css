@@ -1,17 +1,184 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 9 | @import "layout/quienes-somos";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 9:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 9 \2502  @import \"layout/quienes-somos\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 9:9  root stylesheet";
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+header {
+  background-color: #e5fd4f;
+  height: 100px;
+}
+header .container-fluid {
+  display: inline;
+  background-color: #e5fd4f;
+}
+header .container-fluid .navbar-brand img {
+  width: 80px;
+}
+header .container-fluid .navbar {
+  justify-content: right;
+  align-items: end;
+}
+header .container-fluid .navbar-collapse {
+  justify-content: right;
+}
+header .container-fluid .navbar-collapse .navbar-nav {
+  align-items: self-end;
+}
+header .navbar_style ul li {
+  color: black;
+  justify-items: right;
+  font-weight: 500;
+}
+header .navbar_style ul li a:hover {
+  border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+footer {
+  background-color: #e5fd4f;
+}
+footer .footer-content {
+  padding: 0;
+  margin: 5px;
+}
+footer .footer-content .link {
+  padding-bottom: 20px;
+}
+footer .footer-content .link li {
+  display: inline;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+section {
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 5px;
+}
+section h1 {
+  margin: 10px;
+  padding: 10px;
+  font-style: oblique;
+  font-weight: 700;
+}
+section p {
+  padding: 10px;
+}
+section .img-rubro-ppal {
+  margin: 10px;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.grid-container-serv {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+@media (max-width: 900px) {
+  .grid-container-serv {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+  }
+  .grid-container-serv .grid-item-serv-3 {
+    grid-row: 4/5;
+  }
+}
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+body main {
+  background-color: #cfcfc7;
+  margin: 20px 5px;
+  text-align: justify;
+}
+body main section h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
