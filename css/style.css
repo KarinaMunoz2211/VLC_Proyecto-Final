@@ -104,7 +104,8 @@ body main section h1 {
 
 section {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px auto;
+  padding: 5px;
 }
 section h1 {
   margin: 10px;
@@ -140,6 +141,7 @@ body main section h1 {
 
 .grid-container-serv {
   margin: 5px;
+  padding: 10px;
   border: 2px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
