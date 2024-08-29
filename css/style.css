@@ -42,6 +42,7 @@ header {
 }
 header .container-fluid {
   display: inline;
+  background-color: #e5fd4f;
 }
 header .container-fluid .navbar-brand img {
   width: 80px;
@@ -141,7 +142,6 @@ body main section h1 {
 
 .grid-container-serv {
   margin: 5px;
-  padding: 10px;
   border: 2px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
