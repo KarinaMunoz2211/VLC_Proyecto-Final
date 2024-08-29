@@ -24,8 +24,8 @@
         grid-column: 1/2;
         grid-row: 1/2;
         .quienes-somos01{
-            width: 50px;
-            height: 50px;
+            width: 80%;
+            height: 80%;
         }
     }
 
@@ -33,8 +33,8 @@
         grid-column: 1/2;
         grid-row: 2/3;
         .quienes-somos02{
-            width: 50px;
-            height: 50px;
+            width: 80%;
+            height: 80%;
         }
     }
     .grid-item-quien-3{
@@ -59,30 +59,23 @@
     }
 
     .grid-container-quienes{
-        margin:10px;
         display: grid;
-        grid-template-columns: repeat(1,1fr); 
-        padding: 10px;
+        grid-template-columns: repeat(1,1fr);
         align-items: center;
         align-content: center;
 
         .grid-item-quien-1{
-            grid-row:1/3;
-            .quienes-somos01{
-                img{
-                    width: 50px;
-                    height: 50px;
-                }
-            }
+            grid-column: 1/3;
+            grid-row: 1/2;
         }
 
         .grid-item-quien-2{
-            grid-row: 4/5;
+            grid-column: 1/3;
+            grid-row: 3/4;
         }
-
         .grid-item-quien-3{
-            grid-row:3/4;
+            grid-column: 1/3;
+            grid-row:2/3;
         }
     }
-
 }
