@@ -1,0 +1,11 @@
+@import "../base/reset";
+@import "../utilities/variables";
+
+.grid-container-serv{
+    margin:5px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); padding: 10px;
+    align-items: center;
+    align-content: center;
+}
